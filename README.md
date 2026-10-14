@@ -6,7 +6,7 @@
 
 ### من GitHub (تطوير محلي)
 ```bash
-git clone https://github.com/YOUR_USERNAME/git-url-in-files.git
+git clone https://github.com/ibrahimkhacef5-del/guf-official
 cd git-url-in-files
 pip install -e .
 ```
