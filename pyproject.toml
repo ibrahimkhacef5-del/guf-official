@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guf"
+version = "0.1.0"
+description = "Git URL in Files - Extract any URL (especially Git URLs) from any file or directory"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+keywords = ["git", "url", "extract", "cli", "regex", "guf"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/guf"
+Repository = "https://github.com/YOUR_USERNAME/guf"
+
+[project.scripts]
+guf = "guf.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["guf*"]
